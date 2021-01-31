@@ -14,6 +14,9 @@
 ## Passo a Passo para instalação
 
 1) Instalar o Sistema Operacional, conforme requisitos de hardware já citados, no mínimo.
+Obs1.: O usuário default do Ubuntu pode ser o "sdn", que será utilizado mais a frente.
+Obs2: A execucção conforme observação 1 evitará que seja necessário criar um novo usuário e digite o comando:
+sudo adduser sdn --system --group
 
 2) Criar diretório /opt caso nao exista
 sudo mkdir /opt
@@ -28,7 +31,7 @@ sudo tar xzf onos-2.5.1.tar.gz
 5) Renomear diretorio
 sudo mv onos-2.5.1 onos
 
-6) Configurar para ser por serviço.
+5) Configurar para ser por serviço.
  sudo cp /opt/onos/init/onos.initd /etc/init.d/onos
  sudo cp /opt/onos/init/onos.service /etc/systemd/system/
  sudo systemctl daemon-reload
@@ -42,11 +45,12 @@ ONOS_USER=sdn
 ONOS_APPS=
 EOF
 ```
- 
- 
-O usuário sdn sem privilégios será utilizado para executar scripts que irá rodar o ONOS como serviço.
+6) Confirme se o arquivo foi criado
+```bash
+cat /opt/onos/options
+```
 
-sudo adduser sdn --system --group onos-2.5.1.tar.gz
+
 
 
 
@@ -60,3 +64,9 @@ https://opennetworking.org/onos/
 https://wiki.onosproject.org/display/ONOS/User's+Guide
 
 https://wiki.onosproject.org/display/ONOS/
+
+https://wiki.onosproject.org/display/ONOS/Requirements
+
+https://wiki.onosproject.org/display/ONOS/Running+ONOS+as+a+service
+
+https://wiki.onosproject.org/display/ONOS/Managing+ONOS+applications

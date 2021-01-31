@@ -48,7 +48,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable onos
  ```
  
- execute o comando
+ Execute o comando
 ```bash
 sudo tee /opt/onos/options <<-'EOF'
 ONOS_USER=sdn
@@ -60,6 +60,10 @@ EOF
 ```bash
 cat /opt/onos/options
 ```
+
+7) Comando para iniciar o serviço
+sudo systemctl start onos.service
+Obs.: Após configurações já descritas, este serviço será iniciado automaticamente.
 
 
 

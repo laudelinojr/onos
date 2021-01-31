@@ -14,7 +14,9 @@
 ## Passo a Passo para instalação
 
 1) Instalar o Sistema Operacional, conforme requisitos de hardware já citados, no mínimo.
+
 Obs1.: O usuário default do Ubuntu pode ser o "sdn", que será utilizado mais a frente.
+
 Obs2: A execucção conforme observação 1 evitará que seja necessário criar um novo usuário e digite o comando:
 sudo adduser sdn --system --group
 

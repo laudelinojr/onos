@@ -19,23 +19,32 @@ Obs2: A execucção conforme observação 1 evitará que seja necessário criar 
 sudo adduser sdn --system --group
 
 2) Criar diretório /opt caso nao exista
+```bash
 sudo mkdir /opt
 cd /opt
+```
 
 3) Baixar projeto no site do ONOS
+```bash
 sudo wget -c https://repo1.maven.org/maven2/org/onosproject/onos-releases/2.5.1/onos-2.5.1.tar.gz
+```
 
 4) Descompactar
+```bash
 sudo tar xzf onos-2.5.1.tar.gz
-
+```
 5) Renomear diretorio
+```bash
 sudo mv onos-2.5.1 onos
+```
 
 5) Configurar para ser por serviço.
- sudo cp /opt/onos/init/onos.initd /etc/init.d/onos
- sudo cp /opt/onos/init/onos.service /etc/systemd/system/
- sudo systemctl daemon-reload
- sudo systemctl enable onos
+```bash
+sudo cp /opt/onos/init/onos.initd /etc/init.d/onos
+sudo cp /opt/onos/init/onos.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable onos
+ ```
  
  execute o comando
 ```bash
@@ -54,7 +63,7 @@ cat /opt/onos/options
 
 
 
-links:
+Links:
 http://fhs.pro.br/?page_id=2785
 
 https://www.youtube.com/watch?time_continue=2010&v=s2hTj0gMre8&feature=emb_logo

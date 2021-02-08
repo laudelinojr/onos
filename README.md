@@ -11,6 +11,9 @@ https://wiki.onosproject.org/display/ONOS/ONOS
 - 2 Gb de RAM
 - 10 Gb disco
 
+Obs.: Apesar dos reuisitos mínimos do site oficial, sugiro que tenhamos ao menos 4Gb de memória 30Gb de disco, devido ao Sistema Operacional.
+
+
 ## Requisitos de portas abertas
 8181    for REST API and GUI
 8101    to access the ONOS CLI

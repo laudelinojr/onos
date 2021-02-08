@@ -37,7 +37,7 @@ cd /opt
 sudo apt install openjdk-11-jdk
 
 4) Confirmar que é a versão 11
-````bash
+```bash
 java --version
 ```
 

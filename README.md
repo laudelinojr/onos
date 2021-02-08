@@ -1,7 +1,10 @@
 # Instalação do ONOS - Open Network Operating System  :cloud:
 
 ### XXXx
-[ONOS](https://***)
+[ONOS](https://opennetworking.org/onos/)
+
+https://wiki.onosproject.org/display/ONOS/ONOS
+
 
 ## Requisitos mínimos de hardware
 - 1 processador
@@ -84,6 +87,7 @@ Obs.: Após configurações já descritas, este serviço será iniciado automati
 
 8) Abra a interface web
 http://ENDERECO_IP:8181/onos/ui/login.html
+
 Usuario: onos
 
 Senha: rocks

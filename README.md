@@ -115,6 +115,14 @@ onos -l onos
 
 Digite a senha de root
 
+ou digite a senha e usuário padrao
+
+```bash
+onos -l karaf
+```
+Digite a senha padrão, "karaf"
+
+
 Links:
 
 http://fhs.pro.br/?page_id=2785

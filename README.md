@@ -62,7 +62,9 @@ cat /opt/onos/options
 ```
 
 7) Comando para iniciar o serviço
+```bash
 sudo systemctl start onos.service
+```
 Obs.: Após configurações já descritas, este serviço será iniciado automaticamente.
 
 8) Instalando mais uma dependencia

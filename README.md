@@ -68,8 +68,9 @@ sudo systemctl start onos.service
 Obs.: Após configurações já descritas, este serviço será iniciado automaticamente.
 
 8) Instalando mais uma dependencia
+```bash
 sudo apt-get install curl
-
+```
 
 Links:
 

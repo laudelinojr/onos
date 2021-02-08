@@ -1,6 +1,5 @@
 # Instalação do ONOS - Open Network Operating System  :cloud:
 
-### XXXx
 [ONOS](https://opennetworking.org/onos/)
 
 https://wiki.onosproject.org/display/ONOS/ONOS
@@ -11,7 +10,7 @@ https://wiki.onosproject.org/display/ONOS/ONOS
 - 2 Gb de RAM
 - 10 Gb disco
 
-Obs.: Apesar dos reuisitos mínimos do site oficial, sugiro que tenhamos ao menos 4Gb de memória 30Gb de disco, devido ao Sistema Operacional.
+Obs.: Apesar dos requisitos mínimos do site oficial, sugere-se que tenha ao menos 4Gb de memória 30Gb de disco, devido ao Sistema Operacional.
 
 
 ## Requisitos de portas abertas

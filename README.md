@@ -34,7 +34,7 @@ cd /opt
 ```
 
 3) Instlaar o Java
-sudo apt install openjdk-11-jdk
+sudo apt install openjdk-11-jdk curl
 
 4) Confirmar que é a versão 11
 ```bash
@@ -82,10 +82,12 @@ sudo systemctl start onos.service
 ```
 Obs.: Após configurações já descritas, este serviço será iniciado automaticamente.
 
-8) Instalando mais uma dependencia
-```bash
-sudo apt-get install curl
-```
+8) Abra a interface web
+http://ENDERECO_IP:8181/onos/ui/login.html
+Usuario: onos
+
+Senha: rocks
+
 
 Links:
 

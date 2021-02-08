@@ -14,10 +14,14 @@ Obs.: Apesar dos requisitos mínimos do site oficial, sugere-se que tenha ao men
 
 
 ## Requisitos de portas abertas
-8181    for REST API and GUI
-8101    to access the ONOS CLI
-9876    for intra-cluster communication (communication between target machines)
+8181    para REST API and GUI
+
+8101    para acesso ao ONO CLI
+
+9876    para comunicação intra cluster
+
 6653    opicional, para OpenFlow
+
 6640    opicional, para OVSDB
 
 ## Sistema Operacional

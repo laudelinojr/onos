@@ -98,6 +98,11 @@ Usuario: onos
 
 Senha: rocks
 
+9) Para alterar a senha para o acesso Web e REST
+Com o usuário sdn, execute:
+```bash
+/opt/onos/bin/onos-user-password onos nova_senha
+```
 
 Links:
 

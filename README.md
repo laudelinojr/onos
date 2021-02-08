@@ -8,6 +8,13 @@
 - 2 Gb de RAM
 - 10 Gb disco
 
+## Requisitos de portas abertas
+8181    for REST API and GUI
+8101    to access the ONOS CLI
+9876    for intra-cluster communication (communication between target machines)
+6653    opicional, para OpenFlow
+6640    opicional, para OVSDB
+
 ## Sistema Operacional
 - Ubuntu18.04 (64-bit variant required)
 

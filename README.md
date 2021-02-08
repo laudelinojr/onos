@@ -25,7 +25,7 @@ Obs.: Apesar dos requisitos mínimos do site oficial, sugere-se que tenha ao men
 6640    opicional, para OVSDB
 
 ## Sistema Operacional
-- Ubuntu18.04 (64-bit variant required)
+- Ubuntu18.04 (64-bit)
 
 ## Passo a Passo para instalação
 

@@ -103,6 +103,10 @@ Com o usuário sdn, execute:
 ```bash
 /opt/onos/bin/onos-user-password onos nova_senha
 ```
+10) Para colocar os apliativos do ONOS no path do usuário
+
+echo 'PATH="/opt/onos/bin/:$PATH"' >>  ~/.profile
+
 
 Links:
 

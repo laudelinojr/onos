@@ -103,10 +103,17 @@ Com o usuário sdn, execute:
 ```bash
 /opt/onos/bin/onos-user-password onos nova_senha
 ```
-10) Para colocar os apliativos do ONOS no path do usuário
+10) Para inserir os aplicativos do ONOS no PATH do usuário e não precisar digitar o caminho completo
 
 echo 'PATH="/opt/onos/bin/:$PATH"' >>  ~/.profile
 
+
+11) Para abrir a aplicação via linha de comando
+```bash
+onos -l onos
+```
+
+Digite a senha de root
 
 Links:
 

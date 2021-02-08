@@ -4,9 +4,9 @@
 [ONOS](https://***)
 
 ## Requisitos mínimos de hardware
-- 2 processadores
-- 8 Gb de RAM
-- 60 Gb disco
+- 1 processador
+- 2 Gb de RAM
+- 10 Gb disco
 
 ## Sistema Operacional
 - Ubuntu18.04 (64-bit variant required)

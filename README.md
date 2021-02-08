@@ -33,6 +33,14 @@ sudo mkdir /opt
 cd /opt
 ```
 
+3) Instlaar o Java
+sudo apt install openjdk-11-jdk
+
+4) Confirmar que é a versão 11
+````bash
+java --version
+```
+
 3) Baixar projeto no site do ONOS
 ```bash
 sudo wget -c https://repo1.maven.org/maven2/org/onosproject/onos-releases/2.5.1/onos-2.5.1.tar.gz

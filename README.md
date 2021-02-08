@@ -1,6 +1,6 @@
 # Instalação do ONOS - Open Network Operating System  :cloud:
 
-[ONOS](https://opennetworking.org/onos/)
+https://opennetworking.org/onos/
 
 https://wiki.onosproject.org/display/ONOS/ONOS
 
